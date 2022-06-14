@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(180deg, #ffffff, #7229d957);
+    background-attachment: fixed;
+}
+
+main{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.perfil img{
+    width: 100px;
+}
+
+.perfil{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.perfil h1{
+    font-weight: 600;
+    font-size: 35px;
+    color: #1f2633;
+}
+
+.perfil p{
+    font-weight: 600;
+    color: #1f2633;
+}
+
+#frase{
+    margin-top: 25px;
+    font-weight: 600;
+    color: #1f2633;
+    font-size: 12px;
+}
+
+.areaicones img{
+    width: 23px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.areaicones img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.areaicones{
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.caixa{
+    background: #1f2633;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 12px;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.caixa h2{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.caixa p{
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+footer img{
+    width: 120px;
+}
+footer{
+    background: #ffffff64;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
