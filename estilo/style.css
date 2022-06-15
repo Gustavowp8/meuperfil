@@ -183,7 +183,47 @@ main{
     background-size: cover;
   }
 
-  /*========= card ==========*/
+  /*========= abrir img ==========*/
+
+  .imgs{
+    display: none;
+    background: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+  }
+
+  .imgsdois{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 15%;
+
+  }
+
+  .imgstres img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .fecha{
+    background: red;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -4px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+  }
+
+  .fecha p{
+    padding: 5px;
+  }
 
 footer img{
     width: 120px;
@@ -195,4 +235,13 @@ footer{
     width: 100%;
     text-align: center;
     z-index: 10;
+}
+
+@media(max-width: 600px){
+  .imgsdois{
+    width: auto;
+    margin: 50px;
+    margin-top: 20%;
+
+  }
 }
