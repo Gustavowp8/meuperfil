@@ -83,6 +83,14 @@ main{
     margin-bottom: 5px;
 }
 
+#tTitulos{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: #1f2633;
+    text-align: center;
+}
+
 .caixa p{
     font-weight: 300;
     color: #ffffff;
@@ -116,43 +124,63 @@ main{
   }
 
   .swiper-slide:nth-child(1n) {
-    background-color: rgb(206, 17, 17);
+    background-image: url(../arquivos/img/01.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(2n) {
-    background-color: rgb(0, 140, 255);
+    background-image: url(../arquivos/img/02.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(3n) {
-    background-color: rgb(10, 184, 111);
+    background-image: url(../arquivos/img/03.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(4n) {
-    background-color: rgb(211, 122, 7);
+    background-image: url(../arquivos/img/04.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(5n) {
-    background-color: rgb(118, 163, 12);
+    background-image: url(../arquivos/img/05.png);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(6n) {
-    background-color: rgb(180, 10, 47);
+    background-image: url(../arquivos/img/06.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(7n) {
-    background-color: rgb(35, 99, 19);
+    background-image: url(../arquivos/img/07.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(8n) {
-    background-color: rgb(0, 68, 255);
+    background-image: url(../arquivos/img/08.png);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(9n) {
-    background-color: rgb(218, 12, 218);
+    background-image: url(../arquivos/img/09.png);
+    background-position: center;
+    background-size: cover;
   }
 
   .swiper-slide:nth-child(10n) {
-    background-color: rgb(54, 94, 77);
+    background-image: url(../arquivos/img/10.png);
+    background-position: center;
+    background-size: cover;
   }
 
   /*========= card ==========*/
