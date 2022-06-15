@@ -225,6 +225,11 @@ main{
     padding: 5px;
   }
 
+  .exper{
+    max-height: 500px;
+    margin: 40px;
+  }
+
 footer img{
     width: 120px;
 }
