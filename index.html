@@ -23,13 +23,13 @@
             </p>
 
             <div class="areaicones">
-                <img src="arquivos/png/003-facebook.png">
-                <img src="arquivos/png/001-instagram.png">
-                <img src="arquivos/png/002-linkedin.png">
-                <img src="arquivos/png/005-whatsapp.png">
-                <img src="arquivos/png/004-youtube.png">
-                <img src="arquivos/png/006-telegrama.png">
-                <img src="arquivos/png/007-bate-papo.png">
+                <img onclick="face()" src="arquivos/png/003-facebook.png">
+                <img onclick="insta()" src="arquivos/png/001-instagram.png">
+                <img onclick="linkedin()" src="arquivos/png/002-linkedin.png">
+                <img onclick="whast()" src="arquivos/png/005-whatsapp.png">
+                <img onclick="you()" src="arquivos/png/004-youtube.png">
+                <img onclick="telegram()" src="arquivos/png/006-telegrama.png">
+                <img onclick="chamamsgg()" src="arquivos/png/007-bate-papo.png">
             </div>
         </div>
 
@@ -76,6 +76,36 @@
 
             </div>
             <div class="fecha" onclick="fechaum()"><p>FECHAR</p></div>
+        </div>
+    </div>
+
+
+    <!--========================-->
+    <div class="msgg" id="msgg">
+        <div class="msggdois">
+            <div class="msggtres">
+
+
+                <div class="titulomsg">
+                    <img src="arquivos/png/007-bate-papo.png">
+                    <h3>
+                        Escreva uma mensagem 
+                    </h3>
+                </div>
+
+                <form>
+                    <input type="text" name="tNome" id="nNome" placeholder="Digite seu nome ">
+                    <input type="email" name="tMail" id="nMail" placeholder="Digite seu e-mail ">
+
+                    <textarea name="tMsg" id="nMsg" cols="30" rows="10" placeholder="Digite sua mensagem "></textarea>
+                </form>
+               
+                <div class="areadeBtn">
+                    <button id="enviar">ENVIAR</button>
+                    <button id="fecha" onclick="fecharmsgtt()">CANCELAR</button>
+                </div>
+
+            </div>
         </div>
     </div>
 
