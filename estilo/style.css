@@ -244,6 +244,12 @@ main{
     margin-right: 5px;
   }
 
+  .titulomsg h3{
+    color: #1f2633;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
   .titulomsg{
     display: flex;
     align-items: center;
@@ -261,7 +267,7 @@ main{
     color: black;
     font-weight: 800;
 
-    border: 1px solid #1f2633;
+    border: 1px solid #1f26336d;
     outline: 0;
   }
 
@@ -269,7 +275,7 @@ main{
     width: 100%;
     margin-top: 10px;
     border-radius: 12px;
-    border: 1px solid #1f2633;
+    border: 1px solid #1f26336d;
     padding: 2px;
     outline: 0;
     color: black;
